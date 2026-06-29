@@ -8,7 +8,7 @@
             <a href="#about" class="text-sm font-medium text-slate-600 hover:text-slate-900 transition">About Us</a>
             <a href="#contact" class="text-sm font-medium text-slate-600 hover:text-slate-900 transition">Contact Us</a>
 
-            <a href="#" class="bg-red-600 hover:bg-red-700 text-white text-sm font-semibold px-4 py-2 rounded-md shadow-xs transition duration-200">
+            <a href={{  route('login') }} class="bg-red-600 hover:bg-red-700 text-white text-sm font-semibold px-4 py-2 rounded-md shadow-xs transition duration-200">
                 Log in
             </a>
         </nav>
